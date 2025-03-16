@@ -1,5 +1,9 @@
-..... // librerías
-#include "../.vscode/test/TEST.h"
+
+#include <stdio.h>  // Librería estándar para printf y scanf
+#include "../PR2 prueba/TEST.h"    // En la práctica hay que cambiar la ruta y dejarla como está indicada en el guión
+
+
+
 
 // inicia ejecución en main
 int main(void)
@@ -28,6 +32,9 @@ system("cls||clear");
     scanf("%f", &examen);
 
     float calificacion = examen;
+    
+    float suma = n_TE + n_PR + examen;
+
     
     /* Por cada resultado mostrado como parte de la salida se debe
      * incluir el uso de mostrar para el test PRINT_TEST que
