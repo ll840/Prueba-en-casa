@@ -10,11 +10,13 @@ int main(void)
 {
     INICIO_TEST();    // inicialización de prueba 
 
-..... // la lectura cuando sea necesario claramente separa la visualización del mensaje
+    // la lectura cuando sea necesario claramente separa la visualización del mensaje
     printf("mensaje ..........: "); 
-    scanf("%d", .....);
-.....
-system("cls||clear");
+    scanf("%f", salida);
+    // No sé si las notas se ponen con decimales o números enteros
+
+
+    system("cls||clear");
     printf("CALCULO DE CALIFICACIONES\n");
     printf("=================================\n\n");
 
@@ -34,16 +36,16 @@ system("cls||clear");
     float calificacion = examen;
     
     float suma = n_TE + n_PR + examen;
-
+    float suma= salida
     
     /* Por cada resultado mostrado como parte de la salida se debe
      * incluir el uso de mostrar para el test PRINT_TEST que
      * es aquello que debe recogerse en el archivo de casos de prueba
      */
-    printf("salida ..... %d\n", suma); // muestra el resultado en interfaz
-    PRINT_TEST("%d ",suma); // Guarda el resultado para verificar 
+    printf("salida ..... %f\n", suma); // muestra el resultado en interfaz
+    PRINT_TEST("%f ",suma); // Guarda el resultado para verificar 
          // sin mensaje y con espacio después para separar
-.......
+
 
     FIN_TEST();     // finalización
     return 0;
