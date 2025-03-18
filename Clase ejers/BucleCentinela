@@ -1,0 +1,11 @@
+
+
+
+ // necesario para cuando el primer valor es el centinela
+    if (tmax != -1E38)
+        printf("\nTemperatura máxima: %.1f", tmax);
+    else
+        printf("\nSin datos válidos");
+
+    return 0;
+<a href="../_Problemas/Iteracion/TemperaturaMaxima3_3.c">-)</a>

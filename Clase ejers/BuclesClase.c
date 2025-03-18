@@ -5,8 +5,9 @@ int main(void)
     int contador = 0;   // Variable para llevar la cuenta de cuántos números se han leído
     int suma = 0;       // Variable para almacenar la suma de los números
     int numero;         // Variable para almacenar cada número introducido por el usuario
-    
-    while (contador < 10)
+    int valor=4;
+
+    while (contador < valor)
     {
         printf("Introduce un número entero: ");
         scanf("%d", &numero);

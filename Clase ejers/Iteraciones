@@ -1,0 +1,28 @@
+
+
+
+float t;    /* temperatura leída      */
+    float tmax; /* temperatura máxima     */
+
+    printf("TEMPERATURA MÁXIMA\n");
+    printf("==================\n\n");
+    printf("Introduzca número de datos: ");
+    scanf(" %d", &n);
+    if (n <= 0)
+        printf("Sin datos a leer");
+    else
+    {
+        tmax = -1E38;
+        i = 1;
+        while (i <= n)
+        {
+            printf("Introduzca temperatura: ");
+            scanf(" %f", &t);
+            if (t > tmax)
+                tmax = t;
+            i++;
+        }
+        printf("\nTemperatura máxima: %.0f", tmax);
+    }
+}
+<a href="../_Problemas/Iteracion/TemperaturaMaxima3_1.c">-)</a>
