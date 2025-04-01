@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int maxAsteriscos;
+
+    // Solicitar el número máximo de asteriscos como entrada
+    printf("Introduce el número máximo de asteriscos: ");
+    scanf("%d", &maxAsteriscos);
+
+    // Imprimir el patrón A
+    for (int i = 1; i <= maxAsteriscos; i++) {
+        // Imprimir i asteriscos
+        for (int j = 1; j <= i; j++) {
+            printf("%s", "*");
+        }
+        // Nueva línea después de cada fila
+        printf("\n");
+    }
+
+    // Imprimir el patrón B
+    for (int i = maxAsteriscos; i >= 1; i--) {
+        // Imprimir i asteriscos
+        for (int j = 1; j <= i; j++) {
+            printf("%s", "*");
+        }
+        // Nueva línea después de cada fila
+        printf("\n");
+    }
+
+    return 0;
+}

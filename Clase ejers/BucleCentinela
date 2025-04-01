@@ -9,3 +9,17 @@
 
     return 0;
 <a href="../_Problemas/Iteracion/TemperaturaMaxima3_3.c">-)</a>
+
+
+
+int numero, suma = 0;  // numero ya no tiene que se inicializado
+
+
+
+while (numero > 0)
+{  // El bucle se ejecutará mientras el número sea diferente de un negativo
+    printf("Introduce un número: ");
+    scanf("%d", &numero);   // lee número de siguiente iteración
+    suma = suma + numero;
+}
+printf("La suma de los números ingresados es: %d\n", suma);
