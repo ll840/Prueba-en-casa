@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "iteraciones": "cpp",
-        "buclecentinela": "cpp"
+        "buclecentinela": "cpp",
+        "RecGrosor.C": "cpp"
     }
 }
